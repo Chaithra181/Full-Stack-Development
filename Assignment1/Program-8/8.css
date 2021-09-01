@@ -1,0 +1,33 @@
+input[type=text], select, textarea {
+    width: 30%; 
+    height:10%
+    padding: 12px; 
+    border: 2px  solid gray; 
+    border-radius:2px ; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #e7f0ed;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #775bb8;
+  }
+  
+ 
+  .container {
+    border-radius: 10px;
+    background-color: rgb(255, 153, 0);
+    padding: 20px;
+  }
